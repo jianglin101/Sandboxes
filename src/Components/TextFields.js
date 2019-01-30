@@ -8,13 +8,21 @@ import TextField from "@material-ui/core/TextField";
 const styles = theme => ({
   container: {
     display: "flex",
+<<<<<<< HEAD
     flexWrap: "wrap",
     width: "100%"
+=======
+    flexWrap: "wrap"
+>>>>>>> 8fbf78535f553d3b2456b4e42672cbde38af183b
   },
   textField: {
     marginLeft: theme.spacing.unit,
     marginRight: theme.spacing.unit,
+<<<<<<< HEAD
     width: "40%"
+=======
+    width: 200
+>>>>>>> 8fbf78535f553d3b2456b4e42672cbde38af183b
   },
   dense: {
     marginTop: 19
