@@ -1,16 +1,22 @@
 {
-  "name": "usage",
-  "version": "0.0.0",
+  "name": "jwu-sandbox",
+  "version": "0.0.1",
   "description": "Live demo",
   "keywords": [],
-  "homepage": "https://codesandbox.io/s/4j7m47vlm4",
+  "homepage": "https://codesandbox.io/s/github/jianglin101/Sandboxes",
   "main": "index.js",
   "dependencies": {
     "@material-ui/core": "latest",
-    "@material-ui/icons": "3.0.2",
+    "@material-ui/icons": "latest",
+    "classnames": "^2.2.6",
+    "final-form": "^4.18.7",
+    "final-form-arrays": "^3.0.2",
     "react": "latest",
     "react-dom": "latest",
-    "react-router-dom": "4.3.1"
+    "react-final-form": "^6.3.5",
+    "react-final-form-arrays": "^3.1.1",
+    "react-router-dom": "5.1.2",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.0"
@@ -22,4 +28,3 @@
     "eject": "react-scripts eject"
   }
 }
-

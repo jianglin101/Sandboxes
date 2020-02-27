@@ -13,6 +13,9 @@ const Header = () => (
         <li>
           <Link to="/TextFields">TextFields</Link>
         </li>
+        <li>
+          <Link to="/FinalForm">FinalForm</Link>
+        </li>
       </ul>
     </nav>
   </header>

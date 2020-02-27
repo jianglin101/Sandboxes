@@ -21,7 +21,11 @@ const styles = {
   }
 };
 
-const pages = [{ title: "TextFields" }];
+const pages = [
+  { title: "TextFields" },
+  { title: "FinalForm" },
+  { title: "Demo" }
+];
 class TemporaryDrawer extends React.Component {
   state = {
     top: false
@@ -51,16 +55,6 @@ class TemporaryDrawer extends React.Component {
           ))}
         </List>
         <Divider />
-        <List>
-          {["All mail", "Trash", "Spam"].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
-        </List>
       </div>
     );
 
